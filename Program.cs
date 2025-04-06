@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static double calculMoyennex(int [] somme,int nbre)
+        static double calculMoyennexz(int [] somme,int nbre)
         {
             int notes = 0;
             for(int k = 0; k<nbre; k++)
@@ -35,7 +35,7 @@ namespace ConsoleApp1
                 tableau[k] = int.Parse(Console.ReadLine());
             }
 
-            Console.Write("La moyenne est " + calculMoyennex(tableau, nbre));
+            Console.Write("La moyenne est " + calculMoyennexz(tableau, nbre));
             Console.ReadLine();
 
         }
